@@ -19,7 +19,7 @@ parser.add_argument('-pa', '--patience', help='training patience for early stopp
 parser.add_argument('-ua', '--use_attr', action='store_true', help='use sensitive attribute in data', default=True)
 parser.add_argument('-mrs', '--model_random_seed', help='what random seed to use for model', default=0, type=int)
 parser.add_argument('-drs', '--data_random_seed', help='what random seed to use for data', default=0, type=int)
-parser.add_argument('-dm', '--dm_type', help='type of DM to use: inconsistent/biased/highacc', default='inconsistent')
+parser.add_argument('-dm', '--dm_type', help='type of DM to use: inconsistent/highbias/highacc', default='inconsistent')
 parser.add_argument('-dirs', '--dirconf', help='config file for dirs', default='conf/dirs/home.json')
 args = vars(parser.parse_args())
 
