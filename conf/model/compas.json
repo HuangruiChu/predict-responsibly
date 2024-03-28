@@ -2,7 +2,7 @@
     "name": "compas",
     "attr0_name": "White",
     "attr1_name": "Black",
-    "npzfiles": {"inconsistent": "compas_DM_inconsistent.npz",
+    "npzfiles": {"inconsistent": "compas/compas_DM_inconsistent.npz",
                  "highbias": "compas/compas_DM_highbias.npz",
                  "highacc": "compas/compas_DM_highacc.npz"},
     "use_attr": true,
